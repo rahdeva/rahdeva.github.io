@@ -1,52 +1,20 @@
-<h1 align="center">
-  <a href="https://davidcobbina.com" target="_blank">davidcobbina.com</a>
-</h1>
+# rahdeva.github.io
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
 
 <p align="center">
-    This is the second Iteration of my portfolio website (https://github.com/david-legend/aerium).
+    Built by <a href="https://github.com/david-legend"> David Cobbina </a> and Designed by <a href="https://www.behance.net/gallery/63574251/Personal-Portfolio-Website-Design" target="_blank">Julius Guevarra's Designs on Behance</a>
 </p>
-<p align="center">
-    It is inspired by <a href="https://www.behance.net/gallery/63574251/Personal-Portfolio-Website-Design" target="_blank">Julius Guevarra's Designs on Behance</a>
-</p>
-
-
-
-## 🚨 Forking this repo (please read!)
-
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
-
-### TL;DR
-
-Yes, you can fork this repo. Please give me proper credit by linking back to [davidcobbina.com](http://davidcobbina.com). Thanks!
-
-
-## Enjoy
-
-
-![Screenshot](assets/screenshots/0.jpg)
-
-![Screenshot](assets/screenshots/1.jpg)
-
-![Screenshot](assets/screenshots/2.jpg)
-
-![Screenshot](assets/screenshots/3.gif)
-
-![Screenshot](assets/screenshots/4.jpg)
-
-![Screenshot](assets/screenshots/5.gif)
-
-![Screenshot](assets/screenshots/6.gif)
-
-![Screenshot](assets/screenshots/7.jpg)
-
-![Screenshot](assets/screenshots/8.jpg)
-
-![Screenshot](assets/screenshots/9.jpg)
-
-![Screenshot](assets/screenshots/10.jpg)
-
-![Screenshot](assets/screenshots/11.jpg)
-
-
-
-

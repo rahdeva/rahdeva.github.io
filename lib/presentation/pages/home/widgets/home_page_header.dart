@@ -100,9 +100,9 @@ class _HomePageHeaderState extends State<HomePageHeader>
       ),
       top: responsiveSize(
         context,
-        60,
-        screenHeight * 0.35,
-        sm: screenHeight * 0.35,
+        40,
+        screenHeight * 0.30,
+        sm: screenHeight * 0.30,
       ),
       bottom: responsiveSize(context, 20, 40),
     );
@@ -145,25 +145,46 @@ class _HomePageHeaderState extends State<HomePageHeader>
             if (screenWidth < RefinedBreakpoints().tabletNormal) {
               return Column(
                 children: [
+                  // Container(
+                  //   padding: padding,
+                  //   child: AnimatedSlideTranstion(
+                  //     controller: controller,
+                  //     position: animation,
+                  //     child: Stack(
+                  //       children: [
+                  //         RotationTransition(
+                  //           turns: rotationController,
+                  //           child: Image.asset(
+                  //             ImagePath.DEV_SKILLS_2,
+                  //             width: screenWidth,
+                  //           ),
+                  //         ),
+                  //         Image.asset(
+                  //           ImagePath.DEV_MEDITATE,
+                  //           width: screenWidth,
+                  //         ),
+                  //       ],
+                  //     ),
+                  //   ),
+                  // ),
                   Container(
                     padding: padding,
-                    child: AnimatedSlideTranstion(
-                      controller: controller,
-                      position: animation,
-                      child: Stack(
-                        children: [
-                          RotationTransition(
-                            turns: rotationController,
-                            child: Image.asset(
-                              ImagePath.DEV_SKILLS_2,
-                              width: screenWidth,
-                            ),
-                          ),
-                          Image.asset(
-                            ImagePath.DEV_MEDITATE,
-                            width: screenWidth,
-                          ),
-                        ],
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(35),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.grey.withOpacity(0.1),
+                          spreadRadius: 0,
+                          blurRadius: 20,
+                          offset: const Offset(0, 5), // changes position of shadow
+                        )
+                      ]
+                    ),
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(35),
+                      child: Image.asset(
+                        ImagePath.MY_PHOTOS,
+                        width: screenWidth,
                       ),
                     ),
                   ),
@@ -194,25 +215,53 @@ class _HomePageHeaderState extends State<HomePageHeader>
                     ),
                   ),
                   SizedBox(width: screenWidth * 0.05),
+                  // Container(
+                  //   margin: imageMargin,
+                  //   child: AnimatedSlideTranstion(
+                  //     controller: controller,
+                  //     position: animation,
+                  //     child: Stack(
+                  //       children: [
+                  //         RotationTransition(
+                  //           turns: rotationController,
+                  //           child: Image.asset(
+                  //             ImagePath.DEV_SKILLS_2,
+                  //             width: screenWidth * 0.35,
+                  //           ),
+                  //         ),
+                  //         Image.asset(
+                  //           ImagePath.DEV_MEDITATE,
+                  //           width: screenWidth * 0.35,
+                  //         ),
+                  //       ],
+                  //     ),
+                  //   ),
+                  // ),
                   Container(
                     margin: imageMargin,
-                    child: AnimatedSlideTranstion(
-                      controller: controller,
-                      position: animation,
-                      child: Stack(
-                        children: [
-                          RotationTransition(
-                            turns: rotationController,
-                            child: Image.asset(
-                              ImagePath.DEV_SKILLS_2,
-                              width: screenWidth * 0.35,
-                            ),
-                          ),
-                          Image.asset(
-                            ImagePath.DEV_MEDITATE,
-                            width: screenWidth * 0.35,
-                          ),
-                        ],
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(35),
+                      boxShadow: [
+                        // BoxShadow(
+                        //   color: Colors.white.withOpacity(1),
+                        //   spreadRadius: 3,
+                        //   blurRadius: 20,
+                        //   offset: const Offset(0, 5),
+                        // ),
+                        BoxShadow(
+                          color: Colors.grey.withOpacity(0.75),
+                          spreadRadius: 5,
+                          blurRadius: 20,
+                          offset: Offset(5, 10), // changes position of shadow
+                        ),
+                      ]
+                    ),
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(35),
+                      child: Image.asset(
+                        ImagePath.MY_PHOTOS,
+                        fit: BoxFit.cover,
+                        width: screenWidth * 0.25,
                       ),
                     ),
                   ),

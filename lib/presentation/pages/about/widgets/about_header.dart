@@ -37,19 +37,32 @@ class AboutHeader extends StatelessWidget {
           return Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              Container(
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(35),
+                    boxShadow: [
+                      BoxShadow(
+                          color: Colors.grey.withOpacity(0.1),
+                          spreadRadius: 0,
+                          blurRadius: 20,
+                          offset: const Offset(0, 5), // changes position of shadow
+                        )
+                    ]
+                  ),
+                child: ClipRRect(
+                    borderRadius: BorderRadius.circular(35),
+                  child: Image.asset(
+                    ImagePath.DEV,
+                    fit: BoxFit.cover,
+                    width: widthOfScreen(context),
+                    height: assignHeight(context, 0.45),
+                  ),
+                ),
+              ),
+              SpaceH30(),
               AboutDescription(
                 controller: controller,
                 width: widthOfScreen(context),
-              ),
-              SpaceH30(),
-              ClipRRect(
-                borderRadius: BorderRadius.circular(80),
-                child: Image.asset(
-                  ImagePath.DEV,
-                  fit: BoxFit.cover,
-                  width: widthOfScreen(context),
-                  height: assignHeight(context, 0.45),
-                ),
               ),
             ],
           );
@@ -67,16 +80,29 @@ class AboutHeader extends StatelessWidget {
               SizedBox(
                 width: spacing,
               ),
-              ClipRRect(
-                borderRadius: BorderRadius.circular(80.0),
-                child: ConstrainedBox(
-                  constraints: BoxConstraints(
-                    maxWidth: imageWidthLg,
-                    minWidth: imageWidthLg,
-                    maxHeight: assignHeight(context, 0.55),
+              Container(
+                constraints: BoxConstraints(
+                  maxWidth: imageWidthLg,
+                  minWidth: imageWidthLg,
+                  maxHeight: assignHeight(context, 0.55),
+                ),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(35),
+                    boxShadow: [
+                      BoxShadow(
+                          color: Colors.grey.withOpacity(0.75),
+                          spreadRadius: 5,
+                          blurRadius: 20,
+                          offset: Offset(5, 10), // changes position of shadow
+                        ),
+                    ]
                   ),
-                  child: Image.asset(ImagePath.DEV,
-                    fit: BoxFit.cover,),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(35),
+                  child: Image.asset(
+                    ImagePath.DEV,
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
             ],

@@ -17,13 +17,19 @@ class AppLogo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     TextTheme textTheme = Theme.of(context).textTheme;
-    return Text(
-      title,
-      style: titleStyle ??
-          textTheme.headline2?.copyWith(
-            color: titleColor,
-            fontSize: fontSize,
-          ),
+    // return Text(
+    //   title,
+    //   style: titleStyle ??
+    //       textTheme.headline2?.copyWith(
+    //         color: titleColor,
+    //         fontSize: fontSize,
+    //       ),
+    // );
+    return Container(
+      child: Image.asset(
+        ImagePath.TEXT_LOGO,
+        width: 100,
+      ),
     );
   }
 }

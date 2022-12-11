@@ -183,6 +183,7 @@ class StringConst {
   static const String INSTAGRAM = "Instagram";
   static const String TELEGRAM = "Telegram";
   static const String GITHUB = "Github";
+  static const String GITLAB = "Gitlab";
 
   //Certificate Urls
   static const String CMU_CERT_URL = "https://www.cmu.edu/hub/registrar/graduation/diplomas/electronic/validation/index.html";

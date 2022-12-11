@@ -133,56 +133,53 @@ class Data {
   ];
 
   static List<String> mobileTechnologies = [
+    "Flutter",
     "Android",
+    "Dart",
     "Kotlin",
     "Jetpack Compose",
-    "Flutter",
-    "Dart"
-        "Java Android",
+    "Java",
   ];
 
   static List<String> otherTechnologies = [
-    "HTML 5",
-    "CSS 3",
-    "JavaScript",
-    "Typescript",
-    "React JS",
-    "Next JS",
-    "Node JS",
-    "Git",
-    "AWS",
-    "Docker",
-    "Kubernetes",
-    "Google Cloud",
-    "Azure",
-    "Travis CI",
-    "Circle CI",
-    "Express",
+    "HTML5",
+    "CSS3",
+    "Javascript",
     "Chakra UI",
-    "Laravel",
+    "Tailwind CSS",
     "PHP",
-    "SQL",
-    "C++",
-    "Firebase",
     "Figma",
     "Adobe XD",
-    "Wordpress",
+    "Whimsical",
+    "GitHub",
+    "GitLab",
+    "Firebase",
+    "MySQL",
+    "Rive",
+    "C",
+    "C++",
+    "Python",
   ];
   static List<SocialData> socialData1 = [
-    SocialData(
-      name: StringConst.GITHUB,
-      iconData: FontAwesomeIcons.github,
-      url: StringConst.GITHUB_URL,
-    ),
     SocialData(
       name: StringConst.LINKED_IN,
       iconData: FontAwesomeIcons.linkedin,
       url: StringConst.LINKED_IN_URL,
     ),
     SocialData(
-      name: StringConst.TWITTER,
-      iconData: FontAwesomeIcons.twitter,
-      url: StringConst.TWITTER_URL,
+      name: StringConst.GITHUB,
+      iconData: FontAwesomeIcons.github,
+      url: StringConst.GITHUB_URL,
+    ),
+    SocialData(
+      name: StringConst.GITLAB,
+      iconData: FontAwesomeIcons.gitlab,
+      url: StringConst.GITLAB_URL,
+    ),
+    SocialData(
+      name: StringConst.INSTAGRAM,
+      iconData: FontAwesomeIcons.instagram,
+      url: StringConst.INSTAGRAM_URL,
     ),
   ];
 
@@ -193,19 +190,19 @@ class Data {
       url: StringConst.LINKED_IN_URL,
     ),
     SocialData(
-      name: StringConst.TWITTER,
-      iconData: FontAwesomeIcons.twitter,
-      url: StringConst.TWITTER_URL,
+      name: StringConst.GITHUB,
+      iconData: FontAwesomeIcons.github,
+      url: StringConst.GITHUB_URL,
+    ),
+    SocialData(
+      name: StringConst.GITLAB,
+      iconData: FontAwesomeIcons.gitlab,
+      url: StringConst.GITLAB_URL,
     ),
     SocialData(
       name: StringConst.INSTAGRAM,
       iconData: FontAwesomeIcons.instagram,
       url: StringConst.INSTAGRAM_URL,
-    ),
-    SocialData(
-      name: StringConst.TELEGRAM,
-      iconData: FontAwesomeIcons.telegram,
-      url: StringConst.TELEGRAM_URL,
     ),
   ];
 

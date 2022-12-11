@@ -7,7 +7,7 @@ class ImagePath {
   static const String screenshotsDir = "assets/screenshots";
 
   //Images
-  static const String DEV = "$imageDir/david_legend.png";
+  static const String DEV = "$imageDir/my-photos.png";
 
   static const String VYBZ = "$imageDir/vybz.jpg";
   static const String DAVID = "$imageDir/david.png";
@@ -189,4 +189,9 @@ class ImagePath {
   static const String OUTFITR_4 = "$projectsDir/outfitr/outfitr_4.jpeg";
   static const String OUTFITR_5 = "$projectsDir/outfitr/outfitr_5.jpeg";
   static const String OUTFITR_6 = "$projectsDir/outfitr/outfitr_6.jpeg";
+
+
+  // new
+  static const String MY_PHOTOS = "$imageDir/my-photos.png";
+  static const String TEXT_LOGO = "$imageDir/text-logo.png";
 }

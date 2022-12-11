@@ -8,28 +8,14 @@ import 'package:layout/layout.dart';
 
 import 'configure_web.dart';
 
-// Home
-// TODO:: add well rounded verbose rotating logos -> representing web, mobile & cloud
-// cloud -> kubernets & docker
-// mobile -> kotlin, android, flutter, jetpack compose,
-// web -> react, javascript
-
-
-// Certifications
-// TODO:: Add Cloud Certification from Udacity
-
-// Contact
-// TODO:: Fix email service
-
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   configureDependencies();
-   configureApp();
-  runApp(Aerium());
+  configureApp();
+  runApp(MyApp());
 }
 
-class Aerium extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Layout(

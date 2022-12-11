@@ -124,17 +124,17 @@ class _AnimatedFooterState extends State<AnimatedFooter>
                 ],
               ),
             ),
-            Spacer(),
-            AnimatedPositionedText(
-              text: StringConst.AVAILABLE_FOR_FREELANCE,
-              textAlign: TextAlign.center,
-              textStyle: subtitleStyle,
-              factor: 2.0,
-              controller: CurvedAnimation(
-                parent: controller,
-                curve: Curves.fastOutSlowIn,
-              ),
-            ),
+            // Spacer(),
+            // AnimatedPositionedText(
+            //   text: StringConst.AVAILABLE_FOR_FREELANCE,
+            //   textAlign: TextAlign.center,
+            //   textStyle: subtitleStyle,
+            //   factor: 2.0,
+            //   controller: CurvedAnimation(
+            //     parent: controller,
+            //     curve: Curves.fastOutSlowIn,
+            //   ),
+            // ),
             SpaceH40(),
             AnimatedBubbleButton(
               title: StringConst.SAY_HELLO.toUpperCase(),

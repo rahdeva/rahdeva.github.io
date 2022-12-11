@@ -377,23 +377,23 @@ class Data {
       roles: [
         StringConst.COMPANY_3_ROLE_1,
         StringConst.COMPANY_3_ROLE_2,
-        StringConst.COMPANY_3_ROLE_3,
+        // StringConst.COMPANY_3_ROLE_3,
       ],
       location: StringConst.LOCATION_3,
       duration: StringConst.DURATION_3,
     ),
-    ExperienceData(
-      company: StringConst.COMPANY_2,
-      position: StringConst.POSITION_2,
-      companyUrl: StringConst.COMPANY_2_URL,
-      roles: [
-        StringConst.COMPANY_2_ROLE_1,
-        StringConst.COMPANY_2_ROLE_2,
-        StringConst.COMPANY_2_ROLE_3,
-      ],
-      location: StringConst.LOCATION_2,
-      duration: StringConst.DURATION_2,
-    ),
+    // ExperienceData(
+    //   company: StringConst.COMPANY_2,
+    //   position: StringConst.POSITION_2,
+    //   companyUrl: StringConst.COMPANY_2_URL,
+    //   roles: [
+    //     StringConst.COMPANY_2_ROLE_1,
+    //     StringConst.COMPANY_2_ROLE_2,
+    //     StringConst.COMPANY_2_ROLE_3,
+    //   ],
+    //   location: StringConst.LOCATION_2,
+    //   duration: StringConst.DURATION_2,
+    // ),
   ];
 }
 

@@ -106,12 +106,12 @@ class _WorksPageState extends State<WorksPage> with TickerProviderStateMixin {
             },
           ),
           CustomSpacer(heightFactor: 0.1),
-          Container(
-            child: Padding(
-              padding: padding,
-              child: NoteWorthyProjects(),
-            ),
-          ),
+          // Container(
+          //   child: Padding(
+          //     padding: padding,
+          //     child: NoteWorthyProjects(),
+          //   ),
+          // ),
           CustomSpacer(heightFactor: 0.15),
           AnimatedFooter(),
         ],

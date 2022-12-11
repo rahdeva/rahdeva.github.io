@@ -2,28 +2,28 @@ part of values;
 
 class StringConst {
   //strings
-  static const String APP_NAME = "David Legend Portfolio";
-  static const String APP_TITLE = "David Legend Portfolio";
-  static const String SITE_URL = "https://davidcobbina.com";
+  static const String APP_NAME = "Ngurah Deva Portfolio";
+  static const String APP_TITLE = "Ngurah Deva Portfolio";
+  static const String SITE_URL = "";
 
   static const String HOME = "Home";
   static const String ABOUT = "About";
   static const String WORKS = "Works";
-  static const String EXPERIENCE = "Experience";
-  static const String PROJECT = "Project";
+  static const String EXPERIENCE = "Experiences";
+  static const String PROJECT = "Projects";
   static const String WORK = "Where I've Worked";
   static const String SERVICES = "Services";
   static const String CONTACT = "Contact";
   static const String PHONE_NUMBER = "Phone Number";
-  static const String RESUME = "Resume";
+  static const String RESUME = "CV";
   static const String CERTIFICATIONS = "Certifications";
-  static const String EMAIL_VALUE = "davidcobbina47@gmail.com";
+  static const String EMAIL_VALUE = "wirandanaputra@gmail.com";
 
   // Home Page
   static const String HI = "Hi,";
-  static const String DEV_INTRO = "I'm David.";
+  static const String DEV_INTRO = "I'm Deva.";
   static const String DEV_TITLE = "Software Engineer.";
-  static const String DEV_DESC = "Mobile Engineer / Full Stack Developer / Cloud Devops";
+  static const String DEV_DESC = "Mobile Engineer / Front-end Developer / UI/UX Designer";
   static const String SEE_MY_WORKS = "See my works";
   static const String SCROLL_DOWN = "Scroll Down";
   static const String CRAFTED_WITH_LOVE = "Crafted with love.";
@@ -34,7 +34,7 @@ class StringConst {
   // Contact Page
   static const String GET_IN_TOUCH = "Get in touch.";
   static const String CONTACT_MSG =
-      "Hey There, Got a project, job offer or consulting work for me? Feel free to contact me ASAP.";
+      "";
   static const String YOUR_NAME = "Your Name";
   static const String NAME_ERROR_MSG = "* Please enter your name";
   static const String YOUR_EMAIL = "Your Email";
@@ -46,7 +46,8 @@ class StringConst {
   static const String MESSAGE_ERROR_MSG =
       "* Please enter something to send this form";
   static const String SEND_MESSAGE = "Send Message";
-  static const String COPYRIGHT = "©  2021  Built by  $DEV_NAME,";
+  static const String COPYRIGHT = "©  2021  Built by  David Cobbina";
+  static const String COPYRIGHT_LINK = "https://github.com/david-legend";
   static const String DESIGNED_BY = "Designed by Julius G.";
   static const String DESIGN_LINK =
       "https://www.behance.net/gallery/63574251/Personal-Portfolio-Website-Design";
@@ -61,8 +62,8 @@ class StringConst {
   static const String ABOUT_DEV_CATCH_LINE_2 =
       "quality mobile & web applications.";
   // static const String ABOUT_DEV_CATCH_LINE_3 = "& web applications";
-  static const String ABOUT_DEV_CATCH_LINE_4 = "I also have a strong";
-  static const String ABOUT_DEV_CATCH_LINE_5 = "passion for opensource work.";
+  static const String ABOUT_DEV_CATCH_LINE_4 = "I am a person who is curious and";
+  static const String ABOUT_DEV_CATCH_LINE_5 = "love to learn all about technology.";
   static const String ABOUT_DEV_STORY = "Story";
   static const String ABOUT_DEV_STORY_TITLE =
       "A little bit about myself.";
@@ -74,7 +75,7 @@ class StringConst {
       "I am very great at finding solutions to problems and I have a very keen eye for details. I enjoy building fun/useful projects in my free time and open sourcing them. I am an avid reader, lover of all forms art & music, a big fan of poetry & I love travelling.";
   static const String ABOUT_DEV_TECHNOLOGY = "Technology";
   static const String MOBILE_TECH = "Mobile Technologies";
-  static const String OTHER_TECH = "Web / Cloud / Design Technologies";
+  static const String OTHER_TECH = "Web / UI/UX / Others Technologies";
   static const String ABOUT_DEV_TECHNOLOGY_TITLE = "What I use.";
   static const String ABOUT_DEV_TECHNOLOGY_CONTENT =
       "I use a number of tools to aid my creative process when bringing things to life. Listed below are the tools and technologies that I have used over the years.";
@@ -82,9 +83,9 @@ class StringConst {
   static const String ABOUT_DEV_CONTACT_SOCIAL = "Social.";
   static const String ABOUT_DEV_CONTACT_EMAIL = "Email.";
   static const String FAMOUS_QUOTE =
-      "“I have no special talents. I am only passionately curious.”";
-  static const String FAMOUS_QUOTE_AUTHOR = "Albert Einstein";
-  static const String WORK_TOGETHER = "Let's work together.";
+      "Success isn't always about greatness. It's about consistency. Constistent hard work leads to success. \nGreatness will come.";
+  static const String FAMOUS_QUOTE_AUTHOR = "Dwayne Johnson";
+  static const String WORK_TOGETHER = "Let's Connect.";
   static const String AVAILABLE_FOR_FREELANCE =
       "I'm available for Consultancy & Freelancing.";
   static const String SAY_HELLO = "Say Hello";
@@ -110,7 +111,7 @@ class StringConst {
   static const String VIEW = "View";
   static const String COMING_SOON = "COMING SOON !!";
   static const String BUILT_WITH_FLUTTER = "Built using ";
-  static const String DEV_EMAIL = "davidcobbina47@gmail.com";
+  static const String DEV_EMAIL = "wirandanaputra@gmail.com";
   static const String EMAIL_URL = "mailto:<$DEV_EMAIL>?subject=&body=";
 
   static const String KEY_SKILLS = "KEY SKILLS";
@@ -123,7 +124,7 @@ class StringConst {
   static const String PROJECT_NAME = "Project Name";
 
   static const String INTRO = "Hi, my name is";
-  static const String DEV_NAME = "David Cobbina";
+  static const String DEV_NAME = "Gusti Ngurah Deva Wirandana Putra";
   static const String PUNCH_LINE = "I build things with flutter";
   static const String SPECIALITY = "FLUTTER DEV";
   static const String DESIGNED_IN = "Made in Ghana with ";
@@ -167,12 +168,11 @@ class StringConst {
 
   //Socials
 
-  static const String GITHUB_URL = "https://github.com/david-legend";
-  static const String LINKED_IN_URL =
-      "https://www.linkedin.com/in/david-cobbina-7b0226119";
+  static const String GITHUB_URL = "https://github.com/rahdeva";
+  static const String GITLAB_URL = "https://gitlab.com/devawirandana";
+  static const String LINKED_IN_URL = "https://www.linkedin.com/in/rahdeva";
   static const String TWITTER_URL = "https://twitter.com/DavidLegend47";
-  static const String INSTAGRAM_URL =
-      "https://www.instagram.com/david_legend_47";
+  static const String INSTAGRAM_URL = "https://instagram.com/rahdeva";
   static const String TELEGRAM_URL = "https://t.me/DavidLegend";
 
   //Contacts
@@ -225,43 +225,43 @@ class StringConst {
   static const String LOCATION_2 = "Asylum Down - Accra";
   static const String DURATION_2 = "April 2018 - June 2019";
 
-  static const String COMPANY_3 = "Bewsys";
+  static const String COMPANY_3 = "Sirkadian";
   static const String COMPANY_3_URL = "https://bewsys.com/";
-  static const String POSITION_3 = "Software Engineer";
+  static const String POSITION_3 = "Mobile Developer";
   static const String COMPANY_3_ROLE_1 =
-      "Worked in a team of 3 to design and implement backend infrastructure of an inmate management system for the National Prison of South Sudan.";
+      "Developed Apps using Flutter with GetX Pattern that allows users to subscribe to the pricing.";
   static const String COMPANY_3_ROLE_2 =
-      "Architected and implemented a mobile application for the Palestinian Agriculture Advisory System.";
+      "Using Scrum Methodology to maintain team productivity with daily standup.";
   static const String COMPANY_3_ROLE_3 =
-      "Modified existing software to correct errors, upgrade interfaces and improve performance.";
-  static const String LOCATION_3 = "East Legon - Accra";
-  static const String DURATION_3 = "August 2019 - April 2020";
+      "";
+  static const String LOCATION_3 = "Bali";
+  static const String DURATION_3 = "February 2022 - April 2022";
 
 
-  static const String COMPANY_4 = "Brij Money";
+  static const String COMPANY_4 = "Avatar Solution";
   static const String COMPANY_4_URL = "https://www.brij.money/";
-  static const String POSITION_4 = "Software Engineer Intern";
+  static const String POSITION_4 = "Mobile Engineer";
   static const String COMPANY_4_ROLE_1 =
-      "Worked closely with designers & backend engineers to develop and ship merchants feature which allowed end users to purchase items from a merchant store on the Brij app.";
+      "Participate in one ongoing project.";
   static const String COMPANY_4_ROLE_2 =
-      "Developed and shipped airtime & bundle purchasing feature on the Brij mobile app.";
+      "Used Flutter with GetX Pattern and will be deployed on PlayStore and AppStore.";
   static const String COMPANY_4_ROLE_3 =
-      "Interfaced with user experience designers and other developers to ensure thoughtful and coherent user experiences across brij’s iOS and Android mobile apps.";
-  static const String LOCATION_4 = "Accra - Ghana";
-  static const String DURATION_4 = "June 2021 - Aug 2021";
+      "Worked closely with Backend Engineer and others using Monday, Slack, and GitHub.";
+  static const String LOCATION_4 = "Bali";
+  static const String DURATION_4 = "Mei 2022 - Present";
 
 
-  static const String COMPANY_5 = "Consultant";
-  static const String COMPANY_5_URL = SITE_URL;
-  static const String POSITION_5 = "Software Engineer Consultant";
+  static const String COMPANY_5 = "Suitmedia";
+  static const String COMPANY_5_URL = "";
+  static const String POSITION_5 = "Mobile Developer Intern";
   static const String COMPANY_5_ROLE_1 =
-      "Led engineering team to develop & ship a SaaS grid monitoring mobile application platform for Hive Power company in Switzerland.";
+      "Participate in one ongoing project.";
   static const String COMPANY_5_ROLE_2 =
-      "Designed and built technology infrastructure for a leading Ghanaian Insurance company";
+      "Used Flutter with GetX Pattern and will be deployed on PlayStore and AppStore.";
   static const String COMPANY_5_ROLE_3 =
-      "Worked with GoFlow Services in India to improve the architecture of an already existing video streaming mobile application (BeThere).";
-  static const String LOCATION_5 = "Kigali - Rwanda";
-  static const String DURATION_5 = "May 2020 - Sept 2022";
+      "Worked closely with Backend Engineer and others using Monday, Slack, and GitHub.";
+  static const String LOCATION_5 = "Jakarta";
+  static const String DURATION_5 = "July 2022 - December 2022";
 
   //Portfolio, Projects
   static const String PORTFOLIO_SITE_V2 = "Aerium V2";

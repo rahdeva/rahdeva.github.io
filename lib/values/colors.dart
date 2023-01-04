@@ -78,4 +78,56 @@ class AppColors {
   static const Color outfitrNavTitle = Color(0xFF0A0E32);
   static const Color outfitrSelectedNavTitle = Color(0xFF377F8C);
   static const Color outfitrAppLogo = Color(0xFF2DB8AF);
+
+
+  // A-Dev
+  static const Color upcoming = Color(0xFF2DB8AF);
+  static const Color upcomingNavTitle = Color(0xFF0A0E32);
+  static const Color upcomingSelectedNavTitle = Color(0xFF377F8C);
+  static const Color upcomingAppLogo = Color(0xFF2DB8AF);
+
+  static const Color buahTangan = Color(0xFFED6F6A);
+  static const Color buahTanganNavTitle = Color(0xFF0A0E32);
+  static const Color buahTanganSelectedNavTitle = Color(0xFF377F8C);
+  static const Color buahTanganAppLogo = Color(0xFF2DB8AF);
+
+  static const Color ditonton = Color(0xFF2DB8AF);
+  static const Color ditontonNavTitle = Color(0xFF0A0E32);
+  static const Color ditontonSelectedNavTitle = Color(0xFF377F8C);
+  static const Color ditontonAppLogo = Color(0xFF2DB8AF);
+
+  static const Color plantist = Color(0xFF0b3b2d);
+  static const Color plantistNavTitle = Color(0xFF0A0E32);
+  static const Color plantistSelectedNavTitle = Color(0xFF377F8C);
+  static const Color plantistAppLogo = Color(0xFF2DB8AF);
+
+  static const Color tabletop = Color(0xFFe7f6f2);
+  static const Color tabletopNavTitle = Color(0xFF0A0E32);
+  static const Color tabletopSelectedNavTitle = Color(0xFF377F8C);
+  static const Color tabletopAppLogo = Color(0xFF2DB8AF);
+
+  static const Color edgestore = Color(0xFF818cf8);
+  static const Color edgestoreNavTitle = Color(0xFF0A0E32);
+  static const Color edgestoreSelectedNavTitle = Color(0xFF377F8C);
+  static const Color edgestoreAppLogo = Color(0xFF2DB8AF);
+
+  static const Color restaurant = Color(0xFF032248);
+  static const Color restaurantNavTitle = Color(0xFF0A0E32);
+  static const Color restaurantSelectedNavTitle = Color(0xFF377F8C);
+  static const Color restaurantAppLogo = Color(0xFF2DB8AF);
+
+  static const Color masakin = Color(0xFFcdf1dd);
+  static const Color masakinNavTitle = Color(0xFF0A0E32);
+  static const Color masakinSelectedNavTitle = Color(0xFF377F8C);
+  static const Color masakinAppLogo = Color(0xFF2DB8AF);
+
+  static const Color bookshelf = Color(0xFF8edae5);
+  static const Color bookshelfNavTitle = Color(0xFF0A0E32);
+  static const Color bookshelfSelectedNavTitle = Color(0xFF377F8C);
+  static const Color bookshelfAppLogo = Color(0xFF2DB8AF);
+
+  static const Color kenak = Color(0xFF5CE0E6);
+  static const Color kenakNavTitle = Color(0xFF0A0E32);
+  static const Color kenakSelectedNavTitle = Color(0xFF377F8C);
+  static const Color kenakAppLogo = Color(0xFF2DB8AF);
 }

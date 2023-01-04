@@ -75,6 +75,16 @@ flutter:
     - assets/images/projects/roam/
     - assets/images/projects/outfitr/
     - assets/screenshots/
+    - assets/images/rahdeva-projects/
+    - assets/images/rahdeva-projects/upcoming/
+    - assets/images/rahdeva-projects/bookshelf/
+    - assets/images/rahdeva-projects/buahtangan/
+    - assets/images/rahdeva-projects/edgestore/
+    - assets/images/rahdeva-projects/kenak/
+    - assets/images/rahdeva-projects/masakin/
+    - assets/images/rahdeva-projects/plantist/
+    - assets/images/rahdeva-projects/restaurant/
+    - assets/images/rahdeva-projects/tabletop/
   #    - assets/screenshots/
 
   # An image asset can refer to one or more resolution-specific "variants", see

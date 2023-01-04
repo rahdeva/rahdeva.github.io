@@ -1,3 +1,5 @@
+// ignore_for_file: non_constant_identifier_names
+
 part of 'values.dart';
 
 class CertificationData {
@@ -207,27 +209,27 @@ class Data {
   ];
 
   static List<ProjectItemData> recentWorks = [
-    Projects.DISNEY_PLUS,
-    Projects.FLUTTER_CATALOG,
-    Projects.DROP,
-    Projects.ROAM,
-    Projects.LOGIN_CATALOG,
-    Projects.FOODY_BITE,
-    Projects.NIMBUS,
+    // Projects.UPCOMING,
+    Projects.BUAHTANGAN,
+    Projects.DITONTON,
+    Projects.PLANTIST,
+    Projects.TABLETOP,
+    Projects.EDGESTORE,
+    Projects.RESTAURANT,
+    Projects.MASAKIN,
   ];
 
   static List<ProjectItemData> projects = [
-    Projects.DISNEY_PLUS,
-    Projects.FLUTTER_CATALOG,
-    Projects.DROP,
-    Projects.ROAM,
-    Projects.LOGIN_CATALOG,
-    Projects.FOODY_BITE,
-    Projects.NIMBUS,
-    Projects.OTP_TEXT_FIELD,
-    Projects.AERIUM,
-    Projects.AERIUM_V2,
-    Projects.OUTFITR,
+    // Projects.UPCOMING,
+    Projects.BUAHTANGAN,
+    Projects.DITONTON,
+    Projects.PLANTIST,
+    Projects.TABLETOP,
+    Projects.EDGESTORE,
+    Projects.RESTAURANT,
+    Projects.MASAKIN,
+    Projects.BOOKSHELF,
+    Projects.KENAK,
   ];
 
   static List<NoteWorthyProjectDetails> noteworthyProjects = [
@@ -427,6 +429,7 @@ class Projects {
     gitHubUrl: StringConst.DISNEY_PLUS_GITHUB_URL,
     playStoreUrl: StringConst.DISNEY_PLUS_PLAYSTORE_URL,
   );
+
   static ProjectItemData FLUTTER_CATALOG = ProjectItemData(
     title: StringConst.FLUTTER_CATALOG,
     subtitle: StringConst.FLUTTER_CATALOG,
@@ -452,6 +455,7 @@ class Projects {
     gitHubUrl: StringConst.FLUTTER_CATALOG_GITHUB_URL,
     playStoreUrl: StringConst.FLUTTER_CATALOG_PLAYSTORE_URL,
   );
+
   static ProjectItemData DROP = ProjectItemData(
     title: StringConst.DROP,
     subtitle: StringConst.DROP,
@@ -480,6 +484,7 @@ class Projects {
     gitHubUrl: StringConst.DROP_GITHUB_URL,
     playStoreUrl: StringConst.DROP_PLAYSTORE_URL,
   );
+
   static ProjectItemData ROAM = ProjectItemData(
     title: StringConst.ROAM,
     subtitle: StringConst.ROAM,
@@ -510,6 +515,7 @@ class Projects {
     gitHubUrl: StringConst.ROAM_GITHUB_URL,
     playStoreUrl: StringConst.ROAM_PLAYSTORE_URL,
   );
+
   static ProjectItemData LOGIN_CATALOG = ProjectItemData(
     title: StringConst.LOGIN_CATALOG,
     primaryColor: AppColors.login_catalog,
@@ -535,6 +541,7 @@ class Projects {
     gitHubUrl: StringConst.LOGIN_CATALOG_GITHUB_URL,
     playStoreUrl: StringConst.LOGIN_CATALOG_PLAYSTORE_URL,
   );
+
   static ProjectItemData FOODY_BITE = ProjectItemData(
     title: StringConst.FOODY_BITE,
     subtitle: StringConst.FOODY_BITE_SUBTITLE,
@@ -561,6 +568,7 @@ class Projects {
     gitHubUrl: StringConst.FOODY_BITE_GITHUB_URL,
     playStoreUrl: StringConst.FOODY_BITE_PLAYSTORE_URL,
   );
+
   static ProjectItemData NIMBUS = ProjectItemData(
     title: StringConst.NIMBUS,
     subtitle: StringConst.NIMBUS,
@@ -583,6 +591,7 @@ class Projects {
     gitHubUrl: StringConst.NIMBUS_GITHUB_URL,
     webUrl: StringConst.NIMBUS_WEB_URL,
   );
+
   static ProjectItemData OTP_TEXT_FIELD = ProjectItemData(
     title: StringConst.OTP_TEXT_FIELD,
     subtitle: StringConst.OTP_TEXT_FIELD_SUBTITLE,
@@ -601,6 +610,7 @@ class Projects {
     gitHubUrl: StringConst.OTP_TEXT_FIELD_GITHUB_URL,
     webUrl: StringConst.OTP_TEXT_FIELD_WEB_URL,
   );
+
   static ProjectItemData AERIUM = ProjectItemData(
     title: StringConst.AERIUM,
     subtitle: StringConst.AERIUM_SUBTITLE,
@@ -623,6 +633,7 @@ class Projects {
     gitHubUrl: StringConst.AERIUM_GITHUB_URL,
     webUrl: StringConst.AERIUM_WEB_URL,
   );
+
   static ProjectItemData AERIUM_V2 = ProjectItemData(
     title: StringConst.AERIUM_V2,
     subtitle: StringConst.AERIUM_V2_SUBTITLE,
@@ -645,6 +656,7 @@ class Projects {
     gitHubUrl: StringConst.AERIUM_V2_GITHUB_URL,
     webUrl: StringConst.AERIUM_V2_WEB_URL,
   );
+
   static ProjectItemData OUTFITR = ProjectItemData(
     title: StringConst.OUTFITR,
     subtitle: StringConst.OUTFITR_SUBTITLE,
@@ -667,5 +679,263 @@ class Projects {
     technologyUsed: StringConst.FLUTTER,
     gitHubUrl: StringConst.OUTFITR_GITHUB_URL,
     webUrl: StringConst.OUTFITR_WEB_URL,
+  );
+
+  // A-Dev
+  static ProjectItemData UPCOMING = ProjectItemData(
+    title: StringConst.UPCOMING,
+    subtitle: StringConst.UPCOMING_SUBTITLE,
+    category: StringConst.UPCOMING_CATEGORY,
+    primaryColor: AppColors.upcoming,
+    platform: StringConst.UPCOMING_PLATFORM,
+    image: ImagePath.OUTFITR_COVER,
+    coverUrl: ImagePath.OUTFITR_1,
+    portfolioDescription: StringConst.UPCOMING_DETAIL,
+    navTitleColor: AppColors.upcomingNavTitle,
+    navSelectedTitleColor: AppColors.upcomingSelectedNavTitle,
+    appLogoColor: AppColors.upcomingAppLogo,
+    projectAssets: [
+      ImagePath.OUTFITR_2,
+      ImagePath.OUTFITR_4,
+      ImagePath.OUTFITR_5,
+      ImagePath.OUTFITR_6,
+    ],
+    isPublic: true,
+    technologyUsed: StringConst.FLUTTER,
+    gitHubUrl: StringConst.UPCOMING_GITHUB_URL,
+    webUrl: StringConst.UPCOMING_WEB_URL,
+  );
+
+  static ProjectItemData DITONTON = ProjectItemData(
+    title: StringConst.DITONTON,
+    subtitle: StringConst.DITONTON_SUBTITLE,
+    category: StringConst.DITONTON_CATEGORY,
+    primaryColor: AppColors.ditonton,
+    platform: StringConst.DITONTON_PLATFORM,
+    image: ImagePath.OUTFITR_COVER,
+    coverUrl: ImagePath.OUTFITR_1,
+    portfolioDescription: StringConst.DITONTON_DETAIL,
+    navTitleColor: AppColors.ditontonNavTitle,
+    navSelectedTitleColor: AppColors.ditontonSelectedNavTitle,
+    appLogoColor: AppColors.ditontonAppLogo,
+    projectAssets: [
+      ImagePath.OUTFITR_2,
+      ImagePath.OUTFITR_4,
+      ImagePath.OUTFITR_5,
+      ImagePath.OUTFITR_6,
+    ],
+    isPublic: true,
+    technologyUsed: StringConst.FLUTTER,
+    gitHubUrl: StringConst.DITONTON_GITHUB_URL,
+    webUrl: StringConst.DITONTON_WEB_URL,
+  );
+
+  static ProjectItemData BUAHTANGAN = ProjectItemData(
+    title: StringConst.BUAHTANGAN,
+    subtitle: StringConst.BUAHTANGAN_SUBTITLE,
+    category: StringConst.BUAHTANGAN_CATEGORY,
+    primaryColor: AppColors.buahTangan,
+    platform: StringConst.BUAHTANGAN_PLATFORM,
+    image: ImagePath.OUTFITR_COVER,
+    coverUrl: ImagePath.OUTFITR_1,
+    portfolioDescription: StringConst.BUAHTANGAN_DETAIL,
+    navTitleColor: AppColors.buahTanganNavTitle,
+    navSelectedTitleColor: AppColors.buahTanganSelectedNavTitle,
+    appLogoColor: AppColors.buahTanganAppLogo,
+    projectAssets: [
+      ImagePath.OUTFITR_2,
+      ImagePath.OUTFITR_4,
+      ImagePath.OUTFITR_5,
+      ImagePath.OUTFITR_6,
+    ],
+    isPublic: true,
+    technologyUsed: StringConst.FLUTTER,
+    gitHubUrl: StringConst.BUAHTANGAN_GITHUB_URL,
+    webUrl: StringConst.BUAHTANGAN_WEB_URL,
+  );
+
+  static ProjectItemData PLANTIST = ProjectItemData(
+    title: StringConst.PLANTIST,
+    subtitle: StringConst.PLANTIST_SUBTITLE,
+    category: StringConst.PLANTIST_CATEGORY,
+    primaryColor: AppColors.plantist,
+    platform: StringConst.PLANTIST_PLATFORM,
+    image: ImagePath.PLANTIST_COVER,
+    coverUrl: ImagePath.PLANTIST_3,
+    portfolioDescription: StringConst.PLANTIST_DETAIL,
+    navTitleColor: AppColors.plantistNavTitle,
+    navSelectedTitleColor: AppColors.plantistSelectedNavTitle,
+    appLogoColor: AppColors.plantistAppLogo,
+    projectAssets: [
+      ImagePath.PLANTIST_1,
+      ImagePath.PLANTIST_2,
+      ImagePath.PLANTIST_3,
+    ],
+    isPublic: true,
+    technologyUsed: StringConst.ANDROID,
+    gitHubUrl: StringConst.PLANTIST_GITHUB_URL,
+    // webUrl: StringConst.BUAHTANGAN_WEB_URL,
+  );
+
+  static ProjectItemData MASAKIN = ProjectItemData(
+    title: StringConst.MASAKIN,
+    subtitle: StringConst.MASAKIN_SUBTITLE,
+    category: StringConst.MASAKIN_CATEGORY,
+    primaryColor: AppColors.masakin,
+    platform: StringConst.MASAKIN_PLATFORM,
+    image: ImagePath.MASAKIN_COVER,
+    coverUrl: ImagePath.MASAKIN_3,
+    portfolioDescription: StringConst.MASAKIN_DETAIL,
+    navTitleColor: AppColors.masakinNavTitle,
+    navSelectedTitleColor: AppColors.masakinSelectedNavTitle,
+    appLogoColor: AppColors.masakinAppLogo,
+    projectAssets: [
+      ImagePath.MASAKIN_1,
+      ImagePath.MASAKIN_2,
+      ImagePath.MASAKIN_3,
+    ],
+    isPublic: true,
+    technologyUsed: StringConst.FLUTTER,
+    gitHubUrl: StringConst.MASAKIN_GITHUB_URL,
+    // webUrl: StringConst.MASAKIN_WEB_URL,
+  );
+
+  static ProjectItemData RESTAURANT = ProjectItemData(
+    title: StringConst.RESTAURANT,
+    subtitle: StringConst.RESTAURANT_SUBTITLE,
+    category: StringConst.RESTAURANT_CATEGORY,
+    primaryColor: AppColors.restaurant,
+    platform: StringConst.RESTAURANT_PLATFORM,
+    image: ImagePath.RESTAURANT_COVER,
+    coverUrl: ImagePath.RESTAURANT_3,
+    portfolioDescription: StringConst.RESTAURANT_DETAIL,
+    navTitleColor: AppColors.restaurantNavTitle,
+    navSelectedTitleColor: AppColors.restaurantSelectedNavTitle,
+    appLogoColor: AppColors.restaurantAppLogo,
+    projectAssets: [
+      ImagePath.RESTAURANT_1,
+      ImagePath.RESTAURANT_2,
+      ImagePath.RESTAURANT_3,
+      ImagePath.RESTAURANT_4,
+    ],
+    isPublic: true,
+    technologyUsed: StringConst.FLUTTER,
+    gitHubUrl: StringConst.RESTAURANT_GITHUB_URL,
+    // webUrl: StringConst.RESTAURANT_WEB_URL,
+  );
+
+  static ProjectItemData TABLETOP = ProjectItemData(
+    title: StringConst.TABLETOP,
+    subtitle: StringConst.TABLETOP_SUBTITLE,
+    category: StringConst.TABLETOP_CATEGORY,
+    primaryColor: AppColors.tabletop,
+    platform: StringConst.TABLETOP_PLATFORM,
+    image: ImagePath.TABLETOP_COVER,
+    coverUrl: ImagePath.TABLETOP_9,
+    portfolioDescription: StringConst.TABLETOP_DETAIL,
+    navTitleColor: AppColors.tabletopNavTitle,
+    navSelectedTitleColor: AppColors.tabletopSelectedNavTitle,
+    appLogoColor: AppColors.tabletopAppLogo,
+    projectAssets: [
+      ImagePath.TABLETOP_0,
+      ImagePath.TABLETOP_1,
+      ImagePath.TABLETOP_2,
+      ImagePath.TABLETOP_3,
+      ImagePath.TABLETOP_4,
+      ImagePath.TABLETOP_5,
+      ImagePath.TABLETOP_6,
+      ImagePath.TABLETOP_7,
+      ImagePath.TABLETOP_8,
+      ImagePath.TABLETOP_9,
+    ],
+    isPublic: true,
+    technologyUsed: StringConst.FLUTTER,
+    gitHubUrl: StringConst.TABLETOP_GITHUB_URL,
+    webUrl: StringConst.TABLETOP_WEB_URL,
+  );
+
+  static ProjectItemData EDGESTORE = ProjectItemData(
+    title: StringConst.EDGESTORE,
+    subtitle: StringConst.EDGESTORE_SUBTITLE,
+    category: StringConst.EDGESTORE_CATEGORY,
+    primaryColor: AppColors.edgestore,
+    platform: StringConst.EDGESTORE_PLATFORM,
+    image: ImagePath.EDGESTORE_COVER,
+    coverUrl: ImagePath.EDGESTORE_18,
+    portfolioDescription: StringConst.EDGESTORE_DETAIL,
+    navTitleColor: AppColors.edgestoreNavTitle,
+    navSelectedTitleColor: AppColors.edgestoreSelectedNavTitle,
+    appLogoColor: AppColors.edgestoreAppLogo,
+    projectAssets: [
+      ImagePath.EDGESTORE_1,
+      ImagePath.EDGESTORE_2,
+      ImagePath.EDGESTORE_3,
+      ImagePath.EDGESTORE_4,
+      ImagePath.EDGESTORE_5,
+      ImagePath.EDGESTORE_6,
+      ImagePath.EDGESTORE_7,
+      ImagePath.EDGESTORE_8,
+      ImagePath.EDGESTORE_9,
+      ImagePath.EDGESTORE_10,
+      ImagePath.EDGESTORE_11,
+      ImagePath.EDGESTORE_12,
+      ImagePath.EDGESTORE_13,
+      ImagePath.EDGESTORE_14,
+      ImagePath.EDGESTORE_15,
+      ImagePath.EDGESTORE_16,
+      ImagePath.EDGESTORE_17,
+      ImagePath.EDGESTORE_18,
+      ImagePath.EDGESTORE_19,
+    ],
+    isPublic: true,
+    technologyUsed: "Html, CSS, TailwindCss, Javascript, PHP, MySQL",
+    gitHubUrl: StringConst.EDGESTORE_GITHUB_URL,
+    webUrl: StringConst.EDGESTORE_WEB_URL,
+  );
+
+  static ProjectItemData BOOKSHELF = ProjectItemData(
+    title: StringConst.BOOKSHELF,
+    subtitle: StringConst.BOOKSHELF_SUBTITLE,
+    category: StringConst.BOOKSHELF_CATEGORY,
+    primaryColor: AppColors.bookshelf,
+    platform: StringConst.BOOKSHELF_PLATFORM,
+    image: ImagePath.BOOKSHELF_COVER,
+    coverUrl: ImagePath.BOOKSHELF_3,
+    portfolioDescription: StringConst.BOOKSHELF_DETAIL,
+    navTitleColor: AppColors.bookshelfNavTitle,
+    navSelectedTitleColor: AppColors.bookshelfSelectedNavTitle,
+    appLogoColor: AppColors.bookshelfAppLogo,
+    projectAssets: [
+      ImagePath.BOOKSHELF_1,
+      ImagePath.BOOKSHELF_2,
+      ImagePath.BOOKSHELF_3,
+    ],
+    isPublic: true,
+    technologyUsed: "Html, CSS, Javascript",
+    gitHubUrl: StringConst.BOOKSHELF_GITHUB_URL,
+    webUrl: StringConst.BOOKSHELF_WEB_URL,
+  );
+
+  static ProjectItemData KENAK = ProjectItemData(
+    title: StringConst.KENAK,
+    subtitle: StringConst.KENAK_SUBTITLE,
+    category: StringConst.KENAK_CATEGORY,
+    primaryColor: AppColors.kenak,
+    platform: StringConst.KENAK_PLATFORM,
+    image: ImagePath.KENAK_COVER,
+    coverUrl: ImagePath.KENAK_3,
+    portfolioDescription: StringConst.KENAK_DETAIL,
+    navTitleColor: AppColors.kenakNavTitle,
+    navSelectedTitleColor: AppColors.kenakSelectedNavTitle,
+    appLogoColor: AppColors.kenakAppLogo,
+    projectAssets: [
+      ImagePath.KENAK_1,
+      ImagePath.KENAK_2,
+      ImagePath.KENAK_3,
+    ],
+    isPublic: true,
+    technologyUsed: "Html, CSS, Javascript",
+    gitHubUrl: StringConst.KENAK_GITHUB_URL,
+    webUrl: StringConst.KENAK_WEB_URL,
   );
 }

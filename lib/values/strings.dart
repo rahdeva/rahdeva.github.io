@@ -2,8 +2,8 @@ part of values;
 
 class StringConst {
   //strings
-  static const String APP_NAME = "Ngurah Deva Portfolio";
-  static const String APP_TITLE = "Ngurah Deva Portfolio";
+  static const String APP_NAME = "RahDeva Personal Website";
+  static const String APP_TITLE = "RahDeva Personal Website";
   static const String SITE_URL = "";
 
   static const String HOME = "Home";
@@ -23,7 +23,7 @@ class StringConst {
   static const String HI = "Hi,";
   static const String DEV_INTRO = "I'm Deva.";
   static const String DEV_TITLE = "Software Engineer.";
-  static const String DEV_DESC = "Mobile Engineer / Front-end Developer / UI/UX Designer";
+  static const String DEV_DESC = "Mobile Engineer / UI/UX Engineer / Front-end Engineer";
   static const String SEE_MY_WORKS = "See my works";
   static const String SCROLL_DOWN = "Scroll Down";
   static const String CRAFTED_WITH_LOVE = "Crafted with love.";
@@ -68,11 +68,13 @@ class StringConst {
   static const String ABOUT_DEV_STORY_TITLE =
       "A little bit about myself.";
   static const String ABOUT_DEV_STORY_CONTENT_1 =
-      "I am full stack software engineer with great passion for building high quality applications. I have an extensive experience building frontend (mobile & web) and backend applications. I occasionally work as a tech consultant and I am enthusiastic about Devops & Cloud computing technologies.";
+      "I'm Deva, a third-year college student at Udayana University majoring in Computer Science. I'm from Bali, Indonesia.";
   static const String ABOUT_DEV_STORY_CONTENT_2 =
-      "I have a Masters in IT from Carnegie Mellon University where I majored in Software Engineering. I have strong technical skills as well as excellent interpersonal skills, which has enabled me to work & interact with clients all over the world.";
+      "I have extensive experience building Mobile and Website Applications. That's all I got from College, Volunteering, Internship, Friends, and others. I love to design too so I learn and keep practicing UI/UX.";
   static const String ABOUT_DEV_STORY_CONTENT_3 =
-      "I am very great at finding solutions to problems and I have a very keen eye for details. I enjoy building fun/useful projects in my free time and open sourcing them. I am an avid reader, lover of all forms art & music, a big fan of poetry & I love travelling.";
+      "I enjoy building fun and useful projects in my free time. I love listening to music, watching movies, playing games, and all the new and challenging things.";
+  static const String ABOUT_DEV_STORY_CONTENT_4 =
+      "Always try to have a lot of fun in life :)";
   static const String ABOUT_DEV_TECHNOLOGY = "Technology";
   static const String MOBILE_TECH = "Mobile Technologies";
   static const String OTHER_TECH = "Web / UI/UX / Others Technologies";
@@ -101,7 +103,7 @@ class StringConst {
   static const String ABOUT_PROJECT = "About Project";
   static const String PLATFORM = "Platform";
   static const String CATEGORY = "Category";
-  static const String AUTHOR = "Author";
+  static const String AUTHOR = "Contributors";
   static const String DESIGNER = "Designer";
   static const String TECHNOLOGY_USED = "Technology Used";
   static const String LAUNCH_APP = "Launch App";
@@ -482,4 +484,115 @@ class StringConst {
   //API
   static const String BASE_URL = "https://portfolio-api-liart.vercel.app/api";
   static const String GET_IN_TOUCH_POINT = "/getintouch";
+
+  // A-Dev Projects
+  static const String UPCOMING = "Outfitr";
+  static const String UPCOMING_PLATFORM = "Android / IOS.";
+  static const String UPCOMING_CATEGORY = "Ecommerce.";
+  static const String UPCOMING_SUBTITLE =
+      "Design your fashion app faster and easier with Outfitr Fashion UI Kit.";
+  static const String UPCOMING_DETAIL =
+      "With over 30 unique screens, Outfitr UI Kit is a valuable resource for any developer or enterpreneur that wants to standout from the crowd.";
+  static const String UPCOMING_GITHUB_URL =
+      "https://github.com/david-legend/david-legend.github.io";
+  static const String UPCOMING_WEB_URL = "https://davidcobbina.com/#/";
+
+  static const String DITONTON = "Ditonton";
+  static const String DITONTON_PLATFORM = "Android / IOS";
+  static const String DITONTON_CATEGORY = "Flutter Mobile App";
+  static const String DITONTON_SUBTITLE =
+      "Description";
+  static const String DITONTON_DETAIL =
+      "Description";
+  static const String DITONTON_GITHUB_URL =
+      "https://github.com/david-legend/david-legend.github.io";
+  static const String DITONTON_WEB_URL = "https://davidcobbina.com/#/";
+
+  static const String BUAHTANGAN = "BuahTangan";
+  static const String BUAHTANGAN_PLATFORM = "Android / IOS";
+  static const String BUAHTANGAN_CATEGORY = "Flutter Mobile App";
+  static const String BUAHTANGAN_SUBTITLE =
+      "BuahTangan is an application that allows users to get the gift finder according to user input, see the gift directory, read articles about the gift, and gift planner.";
+  static const String BUAHTANGAN_DETAIL =
+      "BuahTangan is an application that allows users to get the gift finder according to user input, see the gift directory, read articles about the gift, and gift planner.";
+  static const String BUAHTANGAN_GITHUB_URL =
+      "https://github.com/rahdeva/buahtangan";
+  static const String BUAHTANGAN_WEB_URL = "https://www.figma.com/proto/PnYKaa8zKvyG3N7osXDhCJ/BuahTangan?node-id=0%3A1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3&show-proto-sidebar=1";
+
+  static const String PLANTIST = "Plantist";
+  static const String PLANTIST_PLATFORM = "Android";
+  static const String PLANTIST_CATEGORY = "Android Native App";
+  static const String PLANTIST_SUBTITLE =
+      "Plantist is an Android app that implemented RecyclerView, Views and ViewGroup, Activity, and Intent that can allow users to get a list of Plants that can be displayed as a Grid, List, or Card.";
+  static const String PLANTIST_DETAIL =
+      "Plantist is an Android app that implemented RecyclerView, Views and ViewGroup, Activity, and Intent that can allow users to get a list of Plants that can be displayed as a Grid, List, or Card.";
+  static const String PLANTIST_GITHUB_URL =
+      "https://github.com/rahdeva/plantist-app";
+  // static const String PLANTIST_WEB_URL = "https://davidcobbina.com/#/";
+
+  static const String MASAKIN = "Masak.in";
+  static const String MASAKIN_PLATFORM = "Flutter";
+  static const String MASAKIN_CATEGORY = "Flutter Mobile App";
+  static const String MASAKIN_SUBTITLE =
+      "Masak.in is a Flutter App that allows users to get list data of Indonesian Foods from a model and see the details with a direct link to youtube videos on how to make it.";
+  static const String MASAKIN_DETAIL =
+      "Masak.in is a Flutter App that allows users to get list data of Indonesian Foods from a model and see the details with a direct link to youtube videos on how to make it.";
+  static const String MASAKIN_GITHUB_URL =
+      "https://github.com/rahdeva/masak_in";
+  // static const String MASAKIN_WEB_URL = "https://davidcobbina.com/#/";
+
+  static const String RESTAURANT = "Restaurant Apps";
+  static const String RESTAURANT_PLATFORM = "Flutter";
+  static const String RESTAURANT_CATEGORY = "Flutter Mobile App";
+  static const String RESTAURANT_SUBTITLE =
+      "Restaurant Apps is a Flutter App that allows users to get a list of recommendations of Indonesian Restaurants from an API and see the details that include menus like food and drink. Users can also comment and favorite the restaurant that user like. The app's theme can be changed into dark or light mode. This app also gives users to activate scheduling the news.";
+  static const String RESTAURANT_DETAIL =
+      "Restaurant Apps is a Flutter App that allows users to get a list of recommendations of Indonesian Restaurants from an API and see the details that include menus like food and drink. Users can also comment and favorite the restaurant that user like. The app's theme can be changed into dark or light mode. This app also gives users to activate scheduling the news.";
+  static const String RESTAURANT_GITHUB_URL =
+      "https://github.com/rahdeva/simple-restaurant-app";
+  // static const String RESTAURANT_WEB_URL = "https://davidcobbina.com/#/";
+
+  static const String TABLETOP = "Tabletop Exercise";
+  static const String TABLETOP_PLATFORM = "Flutter";
+  static const String TABLETOP_CATEGORY = "Flutter Web App";
+  static const String TABLETOP_SUBTITLE =
+      "The tabletop exercise aplication is make for smart arff to test of the integration and capability of emergency response resources without the expense and disruption of services incurred by a full-scale exercise. The exercise may be held as a co-ordination exercise prior to the full-scale exercise, or it may be held at intervening times in order to reconfirm procedures, policy, telephone numbers, radio frequencies, and changes in key personnel. The tabletop exercise is the simplest type of drill to stage, requiring only a meeting room, a large scale map of the airport, and a senior representative of each participating unit in attendance. A probable accident location is selected on the map and each participant describes what actions their unit would take to respond. This exercise will quickly reveal operational problems, such as conflicting communications frequencies, lack of equipment, confusing terminology and areas of jurisdiction. These exercises should be held semiannually, but not coincidental with other exercises. \nThis app wins first place in the competition when another participant is using an expensive app like simulator 😂";
+  static const String TABLETOP_DETAIL =
+      "The tabletop exercise aplication is make for smart arff to test of the integration and capability of emergency response resources without the expense and disruption of services incurred by a full-scale exercise. The exercise may be held as a co-ordination exercise prior to the full-scale exercise, or it may be held at intervening times in order to reconfirm procedures, policy, telephone numbers, radio frequencies, and changes in key personnel. The tabletop exercise is the simplest type of drill to stage, requiring only a meeting room, a large scale map of the airport, and a senior representative of each participating unit in attendance. A probable accident location is selected on the map and each participant describes what actions their unit would take to respond. This exercise will quickly reveal operational problems, such as conflicting communications frequencies, lack of equipment, confusing terminology and areas of jurisdiction. These exercises should be held semiannually, but not coincidental with other exercises. \nThis app wins first place in the competition when another participant is using an expensive app like simulator 😂";
+  static const String TABLETOP_GITHUB_URL =
+      "https://github.com/rahdeva/tabletop-exercise-app";
+  static const String TABLETOP_WEB_URL = "https://tabletop-exercise-ppkp.netlify.app";
+
+  static const String EDGESTORE = "Edgestore Web";
+  static const String EDGESTORE_PLATFORM = "Website";
+  static const String EDGESTORE_CATEGORY = "Website App";
+  static const String EDGESTORE_SUBTITLE =
+      "Database Practicum Final Project";
+  static const String EDGESTORE_DETAIL =
+      "Database Practicum Final Project";
+  static const String EDGESTORE_GITHUB_URL =
+      "https://github.com/rahdeva/edgestore-web";
+  static const String EDGESTORE_WEB_URL = "https://antekteknologi.my.id/edgestore/login.php";
+
+  static const String BOOKSHELF = "Bookshelf Apps";
+  static const String BOOKSHELF_PLATFORM = "Website";
+  static const String BOOKSHELF_CATEGORY = "Website Native App";
+  static const String BOOKSHELF_SUBTITLE =
+      "A web-based application that implements simple CRUD with features to add books, view books that have been read and not read, edit books, and delete books. There is also a search feature to make it easier to find data.";
+  static const String BOOKSHELF_DETAIL =
+      "A web-based application that implements simple CRUD with features to add books, view books that have been read and not read, edit books, and delete books. There is also a search feature to make it easier to find data.";
+  static const String BOOKSHELF_GITHUB_URL =
+      "https://github.com/rahdeva/bookshelf-app";
+  static const String BOOKSHELF_WEB_URL = "https://bookshelf-app-rglp3wgxu-rahdeva.vercel.app/";
+
+  static const String KENAK = "Kenak.id";
+  static const String KENAK_PLATFORM = "Website";
+  static const String KENAK_CATEGORY = "Website Native App";
+  static const String KENAK_SUBTITLE =
+      "Kenak.id is an application that provides information regarding health and fitness with many available features that can help you live a healthy life.";
+  static const String KENAK_DETAIL =
+      "Kenak.id is an application that provides information regarding health and fitness with many available features that can help you live a healthy life.";
+  static const String KENAK_GITHUB_URL =
+      "https://github.com/rahdeva/kenak.id";
+  static const String KENAK_WEB_URL = "https://rahdeva.github.io/kenak.id/";
 }

@@ -4,6 +4,7 @@ class ImagePath {
   //images route
   static const String imageDir = "assets/images";
   static const String projectsDir = "assets/images/projects";
+  static const String rahdevaProjectsDir = "assets/images/rahdeva-projects";
   static const String screenshotsDir = "assets/screenshots";
 
   //Images
@@ -194,4 +195,64 @@ class ImagePath {
   // new
   static const String MY_PHOTOS = "$imageDir/my-photos.png";
   static const String TEXT_LOGO = "$imageDir/text-logo.png";
+
+  // A-Dev Projects
+  static const String PLANTIST_COVER = "$rahdevaProjectsDir/plantist/plantist_cover.png";
+  static const String PLANTIST_1 = "$rahdevaProjectsDir/plantist/plantist_1.png";
+  static const String PLANTIST_2 = "$rahdevaProjectsDir/plantist/plantist_2.png";
+  static const String PLANTIST_3 = "$rahdevaProjectsDir/plantist/plantist_3.png";
+  
+  static const String BOOKSHELF_COVER = "$rahdevaProjectsDir/bookshelf/bookshelf-cover.png";
+  static const String BOOKSHELF_1 = "$rahdevaProjectsDir/bookshelf/bookshelf-1.png";
+  static const String BOOKSHELF_2 = "$rahdevaProjectsDir/bookshelf/bookshelf-2.png";
+  static const String BOOKSHELF_3 = "$rahdevaProjectsDir/bookshelf/bookshelf-3.png";
+
+  static const String EDGESTORE_COVER = "$rahdevaProjectsDir/edgestore/edgestore-cover.png";
+  static const String EDGESTORE_1 = "$rahdevaProjectsDir/edgestore/edgestore-1.png";
+  static const String EDGESTORE_2 = "$rahdevaProjectsDir/edgestore/edgestore-2.png";
+  static const String EDGESTORE_3 = "$rahdevaProjectsDir/edgestore/edgestore-3.png";
+  static const String EDGESTORE_4 = "$rahdevaProjectsDir/edgestore/edgestore-4.png";
+  static const String EDGESTORE_5 = "$rahdevaProjectsDir/edgestore/edgestore-5.png";
+  static const String EDGESTORE_6 = "$rahdevaProjectsDir/edgestore/edgestore-6.png";
+  static const String EDGESTORE_7 = "$rahdevaProjectsDir/edgestore/edgestore-7.png";
+  static const String EDGESTORE_8 = "$rahdevaProjectsDir/edgestore/edgestore-8.png";
+  static const String EDGESTORE_9 = "$rahdevaProjectsDir/edgestore/edgestore-9.png";
+  static const String EDGESTORE_10 = "$rahdevaProjectsDir/edgestore/edgestore-10.png";
+  static const String EDGESTORE_11 = "$rahdevaProjectsDir/edgestore/edgestore-11.png";
+  static const String EDGESTORE_12 = "$rahdevaProjectsDir/edgestore/edgestore-12.png";
+  static const String EDGESTORE_13 = "$rahdevaProjectsDir/edgestore/edgestore-13.png";
+  static const String EDGESTORE_14 = "$rahdevaProjectsDir/edgestore/edgestore-14.png";
+  static const String EDGESTORE_15 = "$rahdevaProjectsDir/edgestore/edgestore-15.png";
+  static const String EDGESTORE_16 = "$rahdevaProjectsDir/edgestore/edgestore-16.png";
+  static const String EDGESTORE_17 = "$rahdevaProjectsDir/edgestore/edgestore-17.png";
+  static const String EDGESTORE_18 = "$rahdevaProjectsDir/edgestore/edgestore-18.png";
+  static const String EDGESTORE_19 = "$rahdevaProjectsDir/edgestore/edgestore-19.png";
+
+  static const String KENAK_COVER = "$rahdevaProjectsDir/kenak/kenak-cover.png";
+  static const String KENAK_1 = "$rahdevaProjectsDir/kenak/kenak-1.png";
+  static const String KENAK_2 = "$rahdevaProjectsDir/kenak/kenak-2.png";
+  static const String KENAK_3 = "$rahdevaProjectsDir/kenak/kenak-3.png";
+
+  static const String MASAKIN_COVER = "$rahdevaProjectsDir/masakin/masakin-cover.png";
+  static const String MASAKIN_1 = "$rahdevaProjectsDir/masakin/masakin-1.png";
+  static const String MASAKIN_2 = "$rahdevaProjectsDir/masakin/masakin-2.png";
+  static const String MASAKIN_3 = "$rahdevaProjectsDir/masakin/masakin-3.png";
+
+  static const String RESTAURANT_COVER = "$rahdevaProjectsDir/restaurant/restaurant-cover.png";
+  static const String RESTAURANT_1 = "$rahdevaProjectsDir/restaurant/restaurant-1.png";
+  static const String RESTAURANT_2 = "$rahdevaProjectsDir/restaurant/restaurant-2.png";
+  static const String RESTAURANT_3 = "$rahdevaProjectsDir/restaurant/restaurant-3.png";
+  static const String RESTAURANT_4 = "$rahdevaProjectsDir/restaurant/restaurant-4.png";
+
+  static const String TABLETOP_COVER = "$rahdevaProjectsDir/tabletop/tabletop-cover.png";
+  static const String TABLETOP_0 = "$rahdevaProjectsDir/tabletop/tabletop-0.png";
+  static const String TABLETOP_1 = "$rahdevaProjectsDir/tabletop/tabletop-1.png";
+  static const String TABLETOP_2 = "$rahdevaProjectsDir/tabletop/tabletop-2.png";
+  static const String TABLETOP_3 = "$rahdevaProjectsDir/tabletop/tabletop-3.png";
+  static const String TABLETOP_4 = "$rahdevaProjectsDir/tabletop/tabletop-4.png";
+  static const String TABLETOP_5 = "$rahdevaProjectsDir/tabletop/tabletop-5.png";
+  static const String TABLETOP_6 = "$rahdevaProjectsDir/tabletop/tabletop-6.png";
+  static const String TABLETOP_7 = "$rahdevaProjectsDir/tabletop/tabletop-7.png";
+  static const String TABLETOP_8 = "$rahdevaProjectsDir/tabletop/tabletop-8.png";
+  static const String TABLETOP_9 = "$rahdevaProjectsDir/tabletop/tabletop-9.png";
 }

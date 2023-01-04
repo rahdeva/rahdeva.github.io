@@ -97,10 +97,10 @@ class Data {
       name: StringConst.EXPERIENCE,
       route: StringConst.EXPERIENCE_PAGE,
     ),
-    NavItemData(
-      name: StringConst.CERTIFICATIONS,
-      route: StringConst.CERTIFICATION_PAGE,
-    ),
+    // NavItemData(
+    //   name: StringConst.CERTIFICATIONS,
+    //   route: StringConst.CERTIFICATION_PAGE,
+    // ),
     NavItemData(name: StringConst.CONTACT, route: StringConst.CONTACT_PAGE),
   ];
 
@@ -351,6 +351,7 @@ class Data {
         StringConst.COMPANY_5_ROLE_1,
         StringConst.COMPANY_5_ROLE_2,
         StringConst.COMPANY_5_ROLE_3,
+        StringConst.COMPANY_5_ROLE_4,
       ],
       location: StringConst.LOCATION_5,
       duration: StringConst.DURATION_5,
@@ -362,7 +363,6 @@ class Data {
       roles: [
         StringConst.COMPANY_4_ROLE_1,
         StringConst.COMPANY_4_ROLE_2,
-        StringConst.COMPANY_4_ROLE_3,
       ],
       location: StringConst.LOCATION_4,
       duration: StringConst.DURATION_4,

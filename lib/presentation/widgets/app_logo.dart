@@ -28,7 +28,8 @@ class AppLogo extends StatelessWidget {
     return Container(
       child: Image.asset(
         ImagePath.TEXT_LOGO,
-        width: 100,
+        width: 50,
+        color: Colors.black.withOpacity(0.75),
       ),
     );
   }

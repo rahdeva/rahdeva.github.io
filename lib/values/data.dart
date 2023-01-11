@@ -211,18 +211,18 @@ class Data {
   static List<ProjectItemData> recentWorks = [
     // Projects.UPCOMING,
     Projects.BUAHTANGAN,
-    Projects.DITONTON,
+    // Projects.DITONTON,
     Projects.PLANTIST,
     Projects.TABLETOP,
-    Projects.EDGESTORE,
     Projects.RESTAURANT,
     Projects.MASAKIN,
+    // Projects.EDGESTORE,
   ];
 
   static List<ProjectItemData> projects = [
     // Projects.UPCOMING,
     Projects.BUAHTANGAN,
-    Projects.DITONTON,
+    // Projects.DITONTON,
     Projects.PLANTIST,
     Projects.TABLETOP,
     Projects.EDGESTORE,

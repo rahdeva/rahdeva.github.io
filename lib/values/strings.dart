@@ -245,7 +245,7 @@ class StringConst {
   static const String COMPANY_4_URL = "https://www.brij.money/";
   static const String POSITION_4 = "Mobile Engineer";
   static const String COMPANY_4_ROLE_1 =
-      "Used Flutter with GetX Pattern to develop Mobile App & deployed on PlayStore & AppStore";
+      "Used Flutter with GetX Pattern to develop Mobile App & deployed on PlayStore & AppStore.";
   static const String COMPANY_4_ROLE_2 =
       "Worked together with Backend Engineer and others using Monday, Slack, and GitHub.";
   static const String LOCATION_4 = "Bali";
@@ -256,11 +256,11 @@ class StringConst {
   static const String COMPANY_5_URL = "";
   static const String POSITION_5 = "Mobile Developer Intern";
   static const String COMPANY_5_ROLE_1 =
-      "Developed e-commerce Hospital Mobile Apps with tons of features that allow users or patients to get information, book an appointment, and others.";
+      "Developed e-commerce Hospital Mobile Apps with tons of features that allow users to get information, book an appointment, and others.";
   static const String COMPANY_5_ROLE_2 =
       "Used Flutter, Dart, Firebase, OneSignal, Android, Kotlin, GitLab Best Practices.";
   static const String COMPANY_5_ROLE_3 =
-      "Created enhancements with documentation on previous Mobile Flutter Suitmedia boilerplate.";
+      "Created enhancements with documentation on previous Suitmedia’s Mobile Flutter boilerplate.";
   static const String COMPANY_5_ROLE_4 =
       "Worked closely with Backend, Analyst, and others from the same squad and external squad.";
   static const String LOCATION_5 = "Jakarta";

@@ -197,6 +197,19 @@ class ImagePath {
   static const String TEXT_LOGO = "$imageDir/text-logo.png";
 
   // A-Dev Projects
+  static const String BUAHTANGAN_COVER = "$rahdevaProjectsDir/buahtangan/buahtangan-cover.png";
+  static const String BUAHTANGAN_COVER_DETAIL = "$rahdevaProjectsDir/buahtangan/buahtangan-cover-detail.png";
+  static const String BUAHTANGAN_1 = "$rahdevaProjectsDir/buahtangan/buahtangan-1.png";
+  static const String BUAHTANGAN_2 = "$rahdevaProjectsDir/buahtangan/buahtangan-2.png";
+  static const String BUAHTANGAN_3 = "$rahdevaProjectsDir/buahtangan/buahtangan-3.png";
+  static const String BUAHTANGAN_4 = "$rahdevaProjectsDir/buahtangan/buahtangan-4.png";
+  static const String BUAHTANGAN_5 = "$rahdevaProjectsDir/buahtangan/buahtangan-5.png";
+  static const String BUAHTANGAN_6 = "$rahdevaProjectsDir/buahtangan/buahtangan-6.png";
+  static const String BUAHTANGAN_7 = "$rahdevaProjectsDir/buahtangan/buahtangan-7.png";
+  static const String BUAHTANGAN_8 = "$rahdevaProjectsDir/buahtangan/buahtangan-8.png";
+  static const String BUAHTANGAN_9 = "$rahdevaProjectsDir/buahtangan/buahtangan-9.png";
+  static const String BUAHTANGAN_10 = "$rahdevaProjectsDir/buahtangan/buahtangan-10.png";
+
   static const String PLANTIST_COVER = "$rahdevaProjectsDir/plantist/plantist_cover.png";
   static const String PLANTIST_1 = "$rahdevaProjectsDir/plantist/plantist_1.png";
   static const String PLANTIST_2 = "$rahdevaProjectsDir/plantist/plantist_2.png";

@@ -517,7 +517,7 @@ class StringConst {
       "BuahTangan is an application that allows users to get the gift finder according to user input, see the gift directory, read articles about the gift, and gift planner.";
   static const String BUAHTANGAN_GITHUB_URL =
       "https://github.com/rahdeva/buahtangan";
-  static const String BUAHTANGAN_WEB_URL = "https://www.figma.com/proto/PnYKaa8zKvyG3N7osXDhCJ/BuahTangan?node-id=0%3A1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3&show-proto-sidebar=1";
+  static const String BUAHTANGAN_WEB_URL = "https://www.behance.net/gallery/161195241/BuahTangan-Mobile-App";
 
   static const String PLANTIST = "Plantist";
   static const String PLANTIST_PLATFORM = "Android";

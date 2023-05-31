@@ -249,7 +249,7 @@ class StringConst {
   static const String COMPANY_4_ROLE_2 =
       "Worked together with Backend Engineer and others using Monday, Slack, and GitHub.";
   static const String LOCATION_4 = "Bali";
-  static const String DURATION_4 = "Mei 2022 - Present";
+  static const String DURATION_4 = "May 2022 - September 2022";
 
 
   static const String COMPANY_5 = "Suitmedia";
@@ -265,6 +265,36 @@ class StringConst {
       "Worked closely with Backend, Analyst, and others from the same squad and external squad.";
   static const String LOCATION_5 = "Jakarta";
   static const String DURATION_5 = "July 2022 - December 2022";
+  
+  static const String COMPANY_6 = "Tridatu Solution";
+  static const String COMPANY_6_URL = "";
+  static const String POSITION_6 = "Mobile Engineer";
+  static const String COMPANY_6_ROLE_1 =
+      "Built 2 mobile applications for internal client company in the field of credit guarantees for Micro, Small, and Medium Enterprises Cooperatives (UMKMK)";
+  static const String COMPANY_6_ROLE_2 =
+      "Contributed by creating a mobile app to manage employees and company information to increase work efficiency, and strengthen integrated human resource management";
+  static const String COMPANY_6_ROLE_3 =
+      "Collaborated closely with Project Manager, Backend, Frontend, and Quality Assurance";
+  static const String LOCATION_6 = "Bali";
+  static const String DURATION_6 = "March 2023 - June 2023";
+  
+  static const String COMPANY_7 = "Surya Citra Media - EMTEK Group";
+  static const String COMPANY_7_URL = "";
+  static const String POSITION_7 = "Mobile Developer Intern";
+  static const String COMPANY_7_ROLE_1 =
+      "Chosen as 1 of the 2 interns in the same division on total of 235 talents with 41.648 candidates";
+  static const String COMPANY_7_ROLE_2 =
+      "Defined and documented detail mobile app revamp for the internal company including Information Architecture, Feature List, Tech Stack, Asset, and Existing Project Improves";
+  static const String COMPANY_7_ROLE_3 =
+      "Designed Design System and new Design User Interfaces for revamp project using Figma";
+  static const String COMPANY_7_ROLE_4 =
+      "Developed and refactor revamp project using Flutter, and completed it 2 weeks ahead of the deadline";
+  static const String COMPANY_7_ROLE_5 =
+      "Developed another mobile app for comprehensive reporting and location inspections within the company, to be implemented by the security department";
+  static const String COMPANY_7_ROLE_6 =
+      "Coordinated proactively with Mentor, Software Engineers, and Intern";
+  static const String LOCATION_7 = "Jakarta";
+  static const String DURATION_7 = "February 2023 - June 2023";
 
   //Portfolio, Projects
   static const String PORTFOLIO_SITE_V2 = "Aerium V2";
